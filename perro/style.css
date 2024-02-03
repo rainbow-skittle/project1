@@ -1,0 +1,302 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.navbar {
+    padding-top: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #CAA6A6;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 40px;
+
+}
+
+.navlinks a {
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.navlinks a:hover {
+    border-bottom: 2px solid black;
+}
+
+
+
+.navlinks {
+    margin-top: 15px;
+}
+
+.service {
+    padding: 20px;
+    background: #FFE7E7;
+    font-size: 20px;
+}
+
+.service select {
+    margin-right: 60px;
+
+}
+
+select {
+    border: none;
+    background: none;
+}
+
+h1 {
+    padding: 40px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    margin-bottom: 60px;
+}
+
+.contain {
+    height: 50vh;
+    width: 70vh;
+    background: #CDFADB;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+
+}
+
+.contain img {
+    height: 260px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.contain button {
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #CAA6A6;
+    color: black;
+    border: 2px solid #CAA6A6;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.container .icon {
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.container2 {
+    height: 50vh;
+    width: 70%;
+    background: #FFE7E7;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px 0px 10px 0px;
+}
+
+.container2 h1 {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.container2 img {
+    height: 270px;
+    width: 570px;
+    border-radius: 20px;
+    padding: 10px;
+    /* clip-path: polygon(0% 0%, 10% 80%, 100% 100%, 0% 0%; */
+}
+
+.container3 {
+    height: 50vh;
+    width: 70%;
+    background: #FFE7E7;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 2% 0 2% 0;
+}
+
+.container3 h1 {
+    text-align: center;
+    padding-left: 40px;
+}
+
+.container3 button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #CAA6A6;
+    color: black;
+    border: none;
+    margin-left: 40px;
+    border: 2px solid #CAA6A6;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.abtUs {
+    background: white;
+    height: 280px;
+    width: 700px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.abtUs p {
+    padding: 20px;
+}
+
+.container3 {
+    display: flex;
+    padding: 10px;
+}
+
+.review {
+    height: 350px;
+    width: 350px;
+    background: #CDFADB;
+    padding: 30px 20px;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.revh1 {
+    margin-left: 15%;
+}
+
+.review ion-icon {
+    font-size: 20px;
+}
+
+.review button {
+    position: absolute;
+    bottom: -15px;
+    left: 30%;
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.rating {
+    height: 150px;
+    width: 200px;
+    background: #CDFADB;
+    margin-right: 10%;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 10px solid #CAA6A6;
+    padding: 20px;
+    margin-left: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.rating img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+
+}
+
+.rating ion-icon {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+
+.rateprev {
+    font-size: 30px;
+    margin-top: 10%;
+    position: absolute;
+    right: 38%;
+
+}
+
+.ratefor {
+    font-size: 30px;
+    margin-top: 10%;
+    position: absolute;
+    right: 13%;
+
+}
+
+.container5 p {
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container5 {
+    margin-top: 40px;
+    height: 200px;
+    background: #CAA6A6;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+}
+
+.container5 h1 {
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.quote {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 25%;
+    z-index: 1;
+    padding-bottom: 10px;
+}
+
+.ellipse {
+    clip-path: ellipse(50% 50% at center);
+    background-color: #CAA6A6;
+    height: 50px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
